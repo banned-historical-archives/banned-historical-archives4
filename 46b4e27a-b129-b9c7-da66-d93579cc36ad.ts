@@ -803,5 +803,6 @@ export default {
     "ocr_exceptions": {}
   },
   "parser_id": "automation",
-  "path": "/archives4/46b4e27a-b129-b9c7-da66-d93579cc36ad.pdf"
+  "path": "/archives4/46b4e27a-b129-b9c7-da66-d93579cc36ad.pdf",
+  "resource_type": "book"
 }
