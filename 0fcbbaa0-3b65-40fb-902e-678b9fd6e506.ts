@@ -17,8 +17,8 @@ export default {
       {
         "title": "1872年德文版序言",
         "authors": [
-          "马克思",
-          "恩格斯"
+          "恩格斯",
+          "马克思"
         ],
         "page_start": 8,
         "page_end": 10,
@@ -28,13 +28,20 @@ export default {
             "month": 6,
             "day": 24
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "1882年俄文版序言",
         "authors": [
-          "马克思",
-          "恩格斯"
+          "恩格斯",
+          "马克思"
         ],
         "page_start": 11,
         "page_end": 13,
@@ -44,7 +51,14 @@ export default {
             "month": 1,
             "day": 21
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "1883年德文版序言",
@@ -59,7 +73,14 @@ export default {
             "month": 6,
             "day": 28
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "1888年英文版序言",
@@ -74,7 +95,14 @@ export default {
             "month": 1,
             "day": 30
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "1890年德文版序言",
@@ -89,7 +117,14 @@ export default {
             "month": 5,
             "day": 1
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "1892年波兰文版序言",
@@ -104,7 +139,14 @@ export default {
             "month": 2,
             "day": 10
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "1893年意大利文版序言 告意大利读者",
@@ -119,7 +161,14 @@ export default {
             "month": 2,
             "day": 1
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "1893年意大利文版序言 告意大利读者",
@@ -139,8 +188,8 @@ export default {
       {
         "title": "共产党宣言",
         "authors": [
-          "马克思",
-          "恩格斯"
+          "恩格斯",
+          "马克思"
         ],
         "page_start": 38,
         "page_end": 93,
@@ -173,4 +222,4 @@ export default {
   "path": "0fcbbaa0-3b65-40fb-902e-678b9fd6e506.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

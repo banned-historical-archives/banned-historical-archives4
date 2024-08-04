@@ -62,7 +62,14 @@ export default {
             "year": 1844,
             "month": 1
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "关于费尔巴哈的提纲",
@@ -80,8 +87,8 @@ export default {
       {
         "title": "费尔巴哈",
         "authors": [
-          "马克思",
-          "恩格斯"
+          "恩格斯",
+          "马克思"
         ],
         "page_start": 75,
         "page_end": 140,
@@ -98,8 +105,8 @@ export default {
       {
         "title": "反克利盖的通告",
         "authors": [
-          "马克思",
-          "恩格斯"
+          "恩格斯",
+          "马克思"
         ],
         "page_start": 141,
         "page_end": 157,
@@ -175,8 +182,8 @@ export default {
       {
         "title": "共产党宣言",
         "authors": [
-          "马克思",
-          "恩格斯"
+          "恩格斯",
+          "马克思"
         ],
         "page_start": 283,
         "page_end": 341,
@@ -190,13 +197,20 @@ export default {
             "year": 1848,
             "month": 1
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "论波兰",
         "authors": [
-          "马克思",
-          "恩格斯"
+          "恩格斯",
+          "马克思"
         ],
         "page_start": 342,
         "page_end": 345,
@@ -211,8 +225,8 @@ export default {
       {
         "title": "论波兰问题",
         "authors": [
-          "马克思",
-          "恩格斯"
+          "恩格斯",
+          "马克思"
         ],
         "page_start": 346,
         "page_end": 353,
@@ -367,8 +381,8 @@ export default {
       {
         "title": "中央委员会告共产主义者同盟书",
         "authors": [
-          "马克思",
-          "恩格斯"
+          "恩格斯",
+          "马克思"
         ],
         "page_start": 436,
         "page_end": 447,
@@ -513,4 +527,4 @@ export default {
   "path": "77f8d60b-66c4-8b3d-7488-ffdedc1e6fd2.pdf",
   "resource_type": "book",
   "version": 2
-}
+};

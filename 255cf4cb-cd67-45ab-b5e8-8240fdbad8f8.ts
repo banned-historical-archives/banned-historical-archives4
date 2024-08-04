@@ -33,7 +33,14 @@ export default {
             "month": 5,
             "day": 5
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "德文第一版序言",
@@ -48,7 +55,14 @@ export default {
             "month": 9,
             "day": 21
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "德文第四版序言",
@@ -63,7 +77,14 @@ export default {
             "month": 5,
             "day": 12
           }
-        ]
+        ],
+        "ocr": {
+          "det_limit_side_len": 1496,
+          "det_db_box_thresh": 0.3,
+          "rec_model_dir": "./paddle/ch_ppocr_mobile_v2.0_rec_infer",
+          "det_model_dir": "./paddle/ch_PP-OCRv3_det_infer",
+          "drop_score": 0.3
+        }
       },
       {
         "title": "英文版序言",
@@ -114,4 +135,4 @@ export default {
   "path": "255cf4cb-cd67-45ab-b5e8-8240fdbad8f8.pdf",
   "resource_type": "book",
   "version": 2
-}
+};
