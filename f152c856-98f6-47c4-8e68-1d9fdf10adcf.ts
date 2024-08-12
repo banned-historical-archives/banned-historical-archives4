@@ -18,6 +18,7 @@ export default {
         "page_start": 5,
         "page_end": 7291,
         "ocr": {
+          "extract_text_from_pdf": true,
           "use_onnx": true,
           "det_model_dir": "./paddle/onnx/ch_PP-OCRv4_det_infer.onnx",
           "rec_model_dir": "./paddle/onnx/ch_PP-OCRv4_rec_infer.onnx"
@@ -30,6 +31,7 @@ export default {
       }
     ],
     "ocr": {
+      "extract_text_from_pdf": true,
       "use_onnx": true,
       "det_model_dir": "./paddle/onnx/ch_PP-OCRv4_det_infer.onnx",
       "rec_model_dir": "./paddle/onnx/ch_PP-OCRv4_rec_infer.onnx"
